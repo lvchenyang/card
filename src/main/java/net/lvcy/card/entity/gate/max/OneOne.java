@@ -1,19 +1,16 @@
 package net.lvcy.card.entity.gate.max;
 
+import net.lvcy.card.core.AbstarctCard;
 import net.lvcy.card.entity.CombinEight;
 import net.lvcy.card.entity.gate.MaxCard;
 import net.lvcy.card.eumn.CardStatus;
+import net.lvcy.card.eumn.CardType;
 
-public class OneOne implements MaxCard, CombinEight {
+public class OneOne extends AbstarctCard implements MaxCard, CombinEight {
 
-	public void setStatus(CardStatus status) {
-		// TODO Auto-generated method stub
-		
+	public OneOne() {
+		this.type = CardType.ONE_ONE;
 	}
 
-	public void getStatus(CardStatus status) {
-		// TODO Auto-generated method stub
-		
-	}
 
 }
